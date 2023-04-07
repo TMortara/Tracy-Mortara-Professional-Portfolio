@@ -20,6 +20,13 @@ import { ThemeProvider } from "styled-components";
 // import HeroComponent from './Components/HelperComponent/Hero';
 
 import { NavBar } from "./Components/Navbar/NavBar";
+import { Hero } from './Components/HelperComponent/Hero';
+import { Container } from './Components/styles/layout/Container.styled';
+import { AboutMe } from './Components/Pages/AboutMe';
+import { Projects } from './Components/Pages/Projects';
+import { Contact } from './Components/Pages/ContactMe';
+import { Resume } from './Components/Pages/Resume';
+// import { Hero } from './Components/HelperComponent/Hero';
 
 
 // function Layout (props){
@@ -36,13 +43,17 @@ const App = () => {
   
   const theme = {
     colors: {
-      white: "rgba(248, 247, 255)",
+      white: "rgba(240, 240, 242)",
       darkGold: "rgba(191, 126, 4)",
       gold: "rgba(191,144,4)",
-      darkGreen: "rgba(13, 13, 13)",
-      salmon: "rgba(242, 152, 99)"
+      darkGreen: "rgba(38, 38, 37)",
+      green: "rgba(63, 78, 79)",
+      salmon: "rgba(242, 152, 99)",
+      mauve: "rgba(141,89,90)",
+      lightPink: "rgba(242,195,167)"
     },
-    mobile: "768px"
+    mobile: "768px",
+    transition: "all 400ms ease-in-out"
   }
 
   return (
@@ -50,6 +61,14 @@ const App = () => {
     <ThemeProvider theme = {theme}>
       <GlobalStyles />
       <NavBar />
+      <Hero />
+      <Container>
+        <AboutMe />
+        <Projects />
+        <Resume />
+        <Contact />
+      </Container>
+
     {/* <BrowserRouter>
      <Routes>
       <Route path='/' element={<Layout />}>

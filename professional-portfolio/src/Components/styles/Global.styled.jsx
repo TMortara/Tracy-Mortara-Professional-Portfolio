@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
 }
 html {
-    background: ${({theme}) => theme.colors.darkGreen};
+    background: ${({theme}) => theme.colors.green};
     color: ${({theme}) => theme.colors.darkGold};
     font-family: 'Poppins', sans-serif;
     font-weight: 300;

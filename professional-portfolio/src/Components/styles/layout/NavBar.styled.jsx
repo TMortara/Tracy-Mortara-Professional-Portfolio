@@ -4,7 +4,7 @@ export const Nav = styled.nav`
     height: 80px;
     width: 100%;
     padding: 0 20px;
-    background-color: rgba(13, 13, 13, 0.5);
+    /* background-color: rgba(13, 13, 13, 0.5); */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -34,11 +34,11 @@ export const HamburgerLineOne = styled.div`
     margin: 5px 0;
     background: linear-gradient(
         135deg,
-        rgba(109, 140, 101, 1) 0%,
-        rgba(191, 144, 4, 1) 100%
+        rgba(191, 126, 4, 1) 0%,
+        rgba(141, 89, 80, 1) 100%
     );
     transition: ${({theme}) => theme.transition};
-    transform: ${({isOpen}) => isOpen ? 'rotate(-60deg)' : "none"};
+    transform: ${({isOpen}) => isOpen ? 'rotate(180deg)' : "none"};
 
 `
 
@@ -48,11 +48,11 @@ export const HamburgerLineTwo = styled.div`
     margin: 5px 0;
     background: linear-gradient(
         135deg,
-        rgba(109, 140, 101, 1) 0%,
-        rgba(191, 144, 4, 1) 100%
+        rgba(191, 126, 4, 1) 0%,
+        rgba(141, 89, 80, 1) 100%
     );
     transition: ${({theme}) => theme.transition};
-    transform: ${({isOpen}) => isOpen ? 'rotate(-60deg)' : "none"};
+    transform: ${({isOpen}) => isOpen ? 'rotate(180deg)' : "none"};
 `
 
 export const HamburgerLineThree = styled.div`
@@ -62,11 +62,11 @@ export const HamburgerLineThree = styled.div`
     margin-left: 15px;
     background: linear-gradient(
         135deg,
-        rgba(109, 140, 101, 1) 0%,
-        rgba(191, 144, 4, 1) 100%
+        rgba(191, 126, 4, 1) 0%,
+        rgba(141, 89, 80, 1) 100%
     );
     transition: ${({theme}) => theme.transition};
-    transform: ${({isOpen}) => isOpen ? 'rotate(-60deg)' : "none"};
+    transform: ${({isOpen}) => isOpen ? 'rotate(180deg)' : "none"};
 
 `
 export const NavList = styled.ul`
@@ -76,11 +76,12 @@ export const NavList = styled.ul`
     justify-content: flex-end;
     font-size: 1rem;
 
+
     @media (max-width: ${({theme}) => theme.mobile}) {
-        width: 34rem;
+        width: 14rem;
         height: 100vh;
-        background: ${({theme, isOpen}) => isOpen ? theme.colors.salmon : theme.colors.darkGreen};
-        color: ${({theme}) => theme.colors.white};
+        background: ${({theme, isOpen}) => isOpen ? theme.colors.darkGreen : theme.colors.mauve};
+        color: ${({theme}) => theme.colors.lightPink};
         position: fixed;
         top: 0;
         right: ${({isOpen}) => isOpen ? "0" : "-24rem"};
@@ -88,6 +89,7 @@ export const NavList = styled.ul`
         justify-content: flex-start;
         flex-direction: column;
         z-index: 998;
+        transition: 0.5s;
     }
 `
 export const NavItem = styled.li`
@@ -110,13 +112,14 @@ export const NavLink = styled.a`
         display: block;
         height: 3px;
         width: 0%;
-        background: orange;
+        background: ${({theme}) => theme.colors.mauve};
         transition: all ease-in-out 300ms;
       }
 
       &:hover {
         &::after {
             width: 100%;
+
         }
       } 
 `
@@ -128,10 +131,10 @@ export const Icons = styled.div`
         width: 150px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
 
         a {
-            margin: 0 0.5rem;
+            margin: 0 1rem;
             font-size: 2rem;
         }
     }
