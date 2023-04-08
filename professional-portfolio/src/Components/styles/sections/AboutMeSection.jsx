@@ -62,6 +62,10 @@ export const AboutTextContainer = styled.div`
         text-align: justify;
         margin-bottom: 1.5rem;
     }
+    span {
+        font-family: 'Kristi', cursive;
+        font-size: 3.5rem;
+    }
     @media (max-width: ${({theme}) => theme.mobile}) {
         p {
             font-size: 1.2rem;

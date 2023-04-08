@@ -4,8 +4,8 @@ export const ProjectData = [
         title: "Project 1",
         tags: ["React", "CSS", "HTML"],
         description: "insert project description here",
-        deployedLink: "#",
-        gitHubLink: "#"
+        deployedLink: "https://quiet-everglades-33653.herokuapp.com/",
+        gitHubLink: "https://github.com/TMortara/Travel-Blog"
     },
     {
         image: "./images/paper.jpg",

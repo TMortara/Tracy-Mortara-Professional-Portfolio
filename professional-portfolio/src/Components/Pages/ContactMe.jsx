@@ -10,12 +10,11 @@ export const Contact = () => {
         </SectionHeading>
         <p>Looking forward to hearing from you!</p>
         
-        <div>
-            <div></div>
-            <div></div>
+        {/* <div> */}
+            {/* <div></div>
+            <div></div> */}
             <ContactForm />
-        </div>
-        
+        {/* </div> */}
     </ContactStyledSection>
 
     </>

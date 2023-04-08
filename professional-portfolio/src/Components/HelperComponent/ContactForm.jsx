@@ -1,4 +1,4 @@
-import { ButtonStyled, FormContainer, InputStyled, InputWrapper, MessageStyled, StyledForm } from "../styles/layout/Form.styled";
+import { FormContainer, StyledButton, StyledInput, StyledLabel, StyledMessage } from "../styles/layout/Form.styled";
 import React, { useRef } from 'react';
 
 export const ContactForm = () => {
@@ -15,43 +15,25 @@ export const ContactForm = () => {
             email: emailRef.current.value,
             message: messageRef.current.value
         }
-
         alert("tadaaa!: \n" + JSON.stringify(data) + "Your data 😎")
     }
 
     return ( 
-        <div className="container">
+        <FormContainer className="container">
             <h1>
                 Contact Me
             </h1>
             <form className="form" onSubmit={handleSubmit}>
-                <p>
+                <StyledLabel>
                     First name
-                </p>
-                <input type="text" name="name" tabIndex="1" placeholder="First and Last Name" ref={nameRef}/>
-                <p>Email</p>
-                <input type="email" name="email" tabIndex="2" placeholder="email@domain.com" ref={emailRef}/>
-                <p>Message</p>
-                <textarea rows="6" name="message" placeholder="Add your message here" ref={messageRef}/>
-                <button type="submit" className="send">Send Message</button>
+                </StyledLabel>
+                <StyledInput type="text" name="name" tabIndex="1" placeholder="First and Last Name" ref={nameRef} required />
+                <StyledLabel>Email</StyledLabel>
+                <StyledInput type="email" name="email" tabIndex="2" placeholder="email@domain.com" ref={emailRef} required />
+                <StyledLabel>Message</StyledLabel>
+                <StyledMessage rows="6" name="message" tabIndex="3" placeholder="Add your message here" ref={messageRef} required />
+                <StyledButton type="submit" className="send">Send Message</StyledButton>
             </form>
-        </div>
-        // <FormContainer>
-        // <StyledForm >
-        //     <InputWrapper>
-        //     <p>Name</p>
-        //     <InputStyled type="text" placeholder="First and Last Name" />
-        //     </InputWrapper>
-        //     <InputWrapper>
-        //     <p>Email</p>
-        //     <InputStyled type="email" placeholder="email@domain.com" />
-        //     </InputWrapper>
-        //     <InputWrapper>
-        //     <p>Message</p>
-        //    <MessageStyled placeholder="Your message here." />
-        //     </InputWrapper>
-        //     <ButtonStyled type="submit" value="Send Message"/>
-        // </StyledForm>
-        // </FormContainer>
+        </FormContainer>
     )
 }

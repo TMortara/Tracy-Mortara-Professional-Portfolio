@@ -26,6 +26,7 @@ import { AboutMe } from './Components/Pages/AboutMe';
 import { Projects } from './Components/Pages/Projects';
 import { Contact } from './Components/Pages/ContactMe';
 import { Resume } from './Components/Pages/Resume';
+import { Foooter } from './Components/HelperComponent/Footer';
 // import { Hero } from './Components/HelperComponent/Hero';
 
 
@@ -67,6 +68,7 @@ const App = () => {
         <Projects />
         <Resume />
         <Contact />
+        <Foooter />
       </Container>
 
     {/* <BrowserRouter>

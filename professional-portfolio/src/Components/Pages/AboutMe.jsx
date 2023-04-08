@@ -21,6 +21,7 @@ export const AboutMe = () => {
             
         </AboutTextContainer>
     </AboutMeSectionStyled>
+    <hr />
     </>
 }
 

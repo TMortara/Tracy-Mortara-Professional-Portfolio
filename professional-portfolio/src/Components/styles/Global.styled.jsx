@@ -29,7 +29,8 @@ a {
 ul {
     list-style: none;
 }
-/* hr {
+
+hr {
    background: linear-gradient(
     to right,
     ${({theme}) => theme.colors.white} 0%,
@@ -37,6 +38,6 @@ ul {
    );
    border: 0;
    height: 1px;
-} */
+}
 
 `;

@@ -30,6 +30,7 @@ export const Projects = () => {
                 </SingleProject>
             ))}
         </div>
+        <hr />
     </ProjectStyledSection>
     </>
 }
