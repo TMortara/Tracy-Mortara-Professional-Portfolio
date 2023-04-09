@@ -10,8 +10,7 @@ export const Resume = () => {
     <ResumeTextContainer>
         <p>If you like what you see, take a look at my resume!</p>
     </ResumeTextContainer>
-    
     </ResumeStyledSection>
-    <hr />
+    {/* <hr /> */}
     </>
 }

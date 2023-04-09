@@ -30,7 +30,7 @@ export const Projects = () => {
                 </SingleProject>
             ))}
         </div>
-        <hr />
+        {/* <hr /> */}
     </ProjectStyledSection>
     </>
 }

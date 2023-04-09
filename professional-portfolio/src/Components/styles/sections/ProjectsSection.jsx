@@ -13,7 +13,8 @@ export const SingleProject = styled.div`
 
     &:nth-child(even) {
         flex-direction: row-reverse;
-        margin: 4rem 0;
+        margin: 3rem 0;
+        
     }
     @media (max-width: ${({theme}) => theme.mobile}) {
        flex-direction: column;
@@ -31,15 +32,16 @@ export const ProjectImageContainer = styled.div`
     flex: 1;
     position: relative;
     perspective: 1000px;
-    padding-right: 5rem;
+    padding-right: 3rem;
+
+    &:nth-child(even) {
+    }
 
     img {
         width: 100%;
         border-radius: 10px;
         /* transform: rotateY(30deg); */
         transition: ${({theme}) => theme.transition};
-
-
     }
     img:hover {
         transform: scale(1.2);
@@ -66,6 +68,7 @@ export const ProjectImageContainer = styled.div`
 export const ProjectText = styled.div`
     flex: 1;
     
+    
     h1 {
         font-size: 3rem;
         margin-bottom: 2rem;
@@ -78,6 +81,7 @@ export const ProjectText = styled.div`
     p {
         font-size: 1.4rem;
         text-align: justify;
+        padding-right: 3.5rem;
     }
     div {
         display: flex;
@@ -115,6 +119,11 @@ export const Tags = styled.div`
        padding: 7px;
        margin-right: 1rem;
        font-size: 1rem;
+       border: 1px solid #2C3639;
+       border-radius: 10px;
+       background-color: #2C3639;
+
+
 
     @media (max-width: ${({theme}) => theme.mobile}) {
         justify-content: center;

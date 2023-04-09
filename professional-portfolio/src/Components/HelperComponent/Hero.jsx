@@ -5,7 +5,7 @@ export const Hero = () => {
         <div>
             <HeroTitle>Tracy Mortara</HeroTitle>
             <p>Full Stack Developer</p>
-            <p>Recent graduate of </p>
+            <p>Blah Blah Blah</p>
             <p>ADD BUTTONS</p>
         </div>
     </StyledHeroSection>
