@@ -81,6 +81,7 @@ export const ProjectText = styled.div`
     p {
         font-size: 1.4rem;
         text-align: justify;
+        text-justify: distribute;
         padding-right: 3.5rem;
     }
     div {
@@ -129,5 +130,104 @@ export const Tags = styled.div`
         justify-content: center;
         font-size: 0.9rem;
     }
+    }
+`
+
+export const OtherProjectsSection = styled.section`
+    min-height: 60vh;
+    padding: 5rem 0 5rem 0;
+    width: 100% auto;
+`
+
+export const OtherProjectItems = styled.div`
+    display: flex;
+
+    @media (max-width: ${({theme}) => theme.mobile}) {
+        flex-direction: column;
+    }
+`
+
+export const SingleOtherProject = styled.div`
+    min-height: 20rem;
+    border-radius: 10px;
+    background: #2C3639;
+        /* give background opacity */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex: 1;
+    padding: 1.2rem;
+    margin-right: 2rem;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+        transform: translateY(-1rem);
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+`
+export const SingleOtherProjectText = styled.div`
+    font-size: 1rem;
+
+    h1 {
+        font-family: 'Kristi', cursive;
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0.8rem 0;
+        padding-bottom: 1rem;
+    }
+    p {
+        font-size: 1.2rem;
+        text-align: center;
+        text-justify: distribute; 
+               
+        padding-bottom: 1.5rem;
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        align-itmes: center;
+
+        a {
+            display: flex;
+            align-items: center;
+            /* margin: 2rem 2rem 2rem 0; */
+            font-size: 1rem;
+            padding: 0.5rem;
+
+            svg {
+                margin-right: 0.5rem;
+            }
+
+            @media (max-width: ${({theme}) => theme.mobile}) {
+            font-size: 0.9rem;
+            }
+        }
+        @media (max-width: ${({theme}) => theme.mobile}) {
+            justify-content: center;
+        }
+    }
+
+`
+
+export const OtherProjectTags = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+
+    span {
+        background: #3F4E4F;
+        margin-bottom: 0.5rem;
+        display: inline-block;
+        padding: 4px;
+        margin-right: 1rem;
+        font-size: 1rem;
+        border: 1px solid #2C3639;
+        border-radius: 10px;
     }
 `

@@ -6,8 +6,9 @@ export const StyledFooter = styled.footer`
     padding: 0 20px;
     /* background-color: rgba(13, 13, 13, 0.5); */
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     /* position: fixed;
     z-index: 98;
     transition: all 1s ease-in-out; */
@@ -20,6 +21,9 @@ export const FooterIcons = styled.div`
     justify-content: space-around;
     font-size: 1.5rem;
 
+    a {
+        padding: 0.5rem;
+    }
 
     @media (max-width: ${({theme}) => theme.mobile}) {
         width: 150px;
@@ -46,7 +50,7 @@ export const FooterText = styled.p`
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         font-size: 0.8rem;
 
         a {

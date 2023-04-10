@@ -1,16 +1,20 @@
-import { SectionHeading } from "../styles/layout/SectionHeadings"
-import { ResumeStyledSection, ResumeTextContainer } from "../styles/sections/ResumeSection"
+import { SectionHeading } from "../styles/layout/SectionHeadings";
+import { ResumeStyledSection, ResumeTextContainer } from "../styles/sections/ResumeSection";
+import resume from "../../assets/resume.pdf"
+import { RxDownload } from "react-icons/rx";
 
-export const Resume = () => {
+export const Resume = () => {  
     return <>
     <ResumeStyledSection id="resume">
     <SectionHeading>
         <h1>Resume</h1>
     </SectionHeading>
     <ResumeTextContainer>
-        <p>If you like what you see, take a look at my resume!</p>
+        <p>Download my resume below to see what else I have been up to!</p>
+        <a href={resume} title="Click to Download" download><RxDownload /></a>
     </ResumeTextContainer>
     </ResumeStyledSection>
     {/* <hr /> */}
     </>
 }
+

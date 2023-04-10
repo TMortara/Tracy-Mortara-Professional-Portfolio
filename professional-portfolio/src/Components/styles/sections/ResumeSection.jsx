@@ -8,9 +8,17 @@ export const ResumeStyledSection = styled.div`
 
 export const ResumeTextContainer = styled.div`
     width: 100%;
-    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content; center;
+    align-items: center;
     
     p {
         text-align: center;
+        font-size: 2.5rem;
+        padding-bottom: 2rem;
+    }
+    a {
+        font-size: 4rem;
     }
 `

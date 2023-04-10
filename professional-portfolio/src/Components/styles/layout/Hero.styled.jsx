@@ -8,6 +8,7 @@ height: 90vh;
 background-size: 100%;
 position: relative;
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
@@ -17,9 +18,6 @@ text-align: center;
     }
 
 `
-
-// export const HeroContent = styled.div`
-// `
 
 export const HeroTitle = styled.h1`
     width: 100%;
@@ -31,4 +29,14 @@ export const HeroTitle = styled.h1`
     @media (max-width: ${({theme}) => theme.mobile}) {
         font-size: 5rem;
     }
+`
+
+export const HeroIcons = styled.div`
+    font-size: 1.5rem;
+    margin: 0.5rem;
+
+    a {
+        padding: 0.5rem;
+    }
+    
 `

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SectionHeading = styled.div`
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 
     h1 {
         display: inline-block;
