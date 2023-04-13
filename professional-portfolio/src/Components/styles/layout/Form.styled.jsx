@@ -1,27 +1,35 @@
 import styled from "styled-components";
 
 export const FormContainer = styled.div`
-    background-color: #f4f4f4;
+    background-color: #DCD7C9;
     padding: 20px;
     border-radius: 5px;
+
+    h1 {
+        font-family: 'Kristi', cursive;
+        font-size: 3rem;
+        text-align: center;
+    }
 `
 export const StyledLabel = styled.p`
     display: block;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     font-weight: 400;
 `
 
 export const StyledInput = styled.input`
     width: 100%;
     padding: 10px;
-    border-bottom: 1px solid rgb(100, 21, 173);
+    background: #DCD7C9;
+    border-bottom: 1px solid rgb(44, 54, 57);
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     border-top: 1px solid transparent;
 
     ::placeholder {
     font-family: 'Poppins', sans-serif; 
-    color: ${({theme}) => theme.colors.salmon};
+    color: ${({theme}) => theme.colors.darkGreen};
     }
 
     input[type="text"] {
@@ -32,7 +40,8 @@ export const StyledInput = styled.input`
 export const StyledMessage = styled.textarea`
     width: 100%;
     padding: 10px;
-    border-bottom: 1px solid rgb(100, 21, 173);
+    background: #DCD7C9;
+    border-bottom: 1px solid rgb(44, 54, 57);
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     border-top: 1px solid transparent;
@@ -40,25 +49,26 @@ export const StyledMessage = styled.textarea`
 
     ::placeholder {
     font-family: 'Poppins', sans-serif; 
-    color: ${({theme}) => theme.colors.salmon};
+    color: ${({theme}) => theme.colors.darkGreen};
     }
 `
 export const StyledButton = styled.button`    
-    width: 140px;
+    width: 120px;
     height: 45px;
+    margin-top: 0.5rem;
     font-family: 'Poppins', sans-serif;
     font-size: 11px;
     letter-spacing: 1.5px;
     font-weight: 500;
-    color: #000;
-    background-color: #fff;
+    color: ${({theme}) => theme.colors.darkGreen};
+    background: ${({theme}) => theme.colors.darkGreen};
     border: none;
     border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 15px rgba(44, 54, 57, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-
+    
     &:hover {
         background-color: #8D5950;
         box-shadow: 0px 15px 20px rgba(141, 89, 80, 0.4);

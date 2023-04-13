@@ -46,8 +46,9 @@ const App = () => {
     colors: {
       white: "rgba(240, 240, 242)",
       darkGold: "rgba(191, 126, 4)",
-      gold: "rgba(191,144,4)",
-      darkGreen: "rgba(38, 38, 37)",
+      gold: "rgb(191,144,4)",
+      // darkGreen: "rgb(38, 38, 37)",
+      darKGreen: "rgb(44, 54, 57)",
       green: "rgba(63, 78, 79)",
       salmon: "rgba(242, 152, 99)",
       mauve: "rgba(141,89,90)",

@@ -15,7 +15,7 @@ export const ContactForm = () => {
             email: emailRef.current.value,
             message: messageRef.current.value
         }
-        alert("tadaaa!: \n" + JSON.stringify(data) + "Your data 😎")
+        alert("Thank you for messaging me! \n" + JSON.stringify(data) )
     }
 
     return ( 
