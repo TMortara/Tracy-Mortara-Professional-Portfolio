@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/TMortara/Tracy-Mortara-Professional-Portfolio/static/js/main.a2ea452c.js",
-    "static/media/headshot.jpg": "/TMortara/Tracy-Mortara-Professional-Portfolio/static/media/headshot.95862114e69870fff391.jpg",
-    "static/media/wanderlust.png": "/TMortara/Tracy-Mortara-Professional-Portfolio/static/media/wanderlust.6b8067e73fe6887e416d.png",
-    "static/media/weatherapp.png": "/TMortara/Tracy-Mortara-Professional-Portfolio/static/media/weatherapp.df88ab5d2716b01bb670.png",
-    "static/media/jscodingquiz.png": "/TMortara/Tracy-Mortara-Professional-Portfolio/static/media/jscodingquiz.fa6d3e79d0bdac782651.png",
-    "static/media/resume.pdf": "/TMortara/Tracy-Mortara-Professional-Portfolio/static/media/resume.d8a7a9d2ce7d5e013639.pdf",
-    "index.html": "/TMortara/Tracy-Mortara-Professional-Portfolio/index.html",
-    "main.a2ea452c.js.map": "/TMortara/Tracy-Mortara-Professional-Portfolio/static/js/main.a2ea452c.js.map"
+    "main.js": "/Tracy-Mortara-Professional-Portfolio/static/js/main.448cd364.js",
+    "static/media/headshot.jpg": "/Tracy-Mortara-Professional-Portfolio/static/media/headshot.95862114e69870fff391.jpg",
+    "static/media/wanderlust.png": "/Tracy-Mortara-Professional-Portfolio/static/media/wanderlust.6b8067e73fe6887e416d.png",
+    "static/media/weatherapp.png": "/Tracy-Mortara-Professional-Portfolio/static/media/weatherapp.df88ab5d2716b01bb670.png",
+    "static/media/jscodingquiz.png": "/Tracy-Mortara-Professional-Portfolio/static/media/jscodingquiz.fa6d3e79d0bdac782651.png",
+    "static/media/resume.pdf": "/Tracy-Mortara-Professional-Portfolio/static/media/resume.d8a7a9d2ce7d5e013639.pdf",
+    "index.html": "/Tracy-Mortara-Professional-Portfolio/index.html",
+    "main.448cd364.js.map": "/Tracy-Mortara-Professional-Portfolio/static/js/main.448cd364.js.map"
   },
   "entrypoints": [
-    "static/js/main.a2ea452c.js"
+    "static/js/main.448cd364.js"
   ]
 }
