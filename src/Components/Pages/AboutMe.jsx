@@ -1,10 +1,11 @@
 import { AboutHeading, AboutMeSectionStyled, AboutTextContainer, Headshot, HeadshotBorder, HeadshotBorderTwo, HeadshotContainer } from "../styles/sections/AboutMeSection"
+import headshot from "../../assets/images/headshot.jpg"
 
 export const AboutMe = () => {
     return <>
     <AboutMeSectionStyled id="aboutme">
         <HeadshotContainer>
-            <Headshot src="./images/headshot.jpg" alt="Tracy Mortara Headshot"/>
+            <Headshot src={headshot} alt="Tracy Mortara Headshot"/>
             <HeadshotBorder />
             <HeadshotBorderTwo />
         </HeadshotContainer>
