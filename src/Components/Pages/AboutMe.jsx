@@ -14,7 +14,7 @@ export const AboutMe = () => {
                 Hi, my name is <span>Tracy Mortara</span> !
             </AboutHeading>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit facere aliquid iusto aliquam ducimus, aspernatur maxime tempora officiis voluptatum eos iure velit veritatis nesciunt tenetur natus nihil provident. Assumenda, iure.
+                I am a recent graduate of 
             </p>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit facere aliquid iusto aliquam ducimus, aspernatur maxime tempora officiis voluptatum eos iure velit veritatis nesciunt tenetur natus nihil provident. Assumenda, iure.
