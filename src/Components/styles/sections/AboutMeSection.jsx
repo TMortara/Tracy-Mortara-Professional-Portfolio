@@ -73,6 +73,11 @@ export const AboutTextContainer = styled.div`
     }
 `
 
+export const Title = styled.span`
+    font-family: 'Kristi', cursive;
+    font-size: 2rem;
+`
+
 export const AboutHeading = styled.h1`
     font-size: 2rem;
     margin-bottom: 20px;
