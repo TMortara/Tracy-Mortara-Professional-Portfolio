@@ -73,7 +73,7 @@ export const StyledButton = styled.button`
         background-color: #8D5950;
         box-shadow: 0px 15px 20px rgba(141, 89, 80, 0.4);
     color: white;
-    transform: translateY(-2px); */
+    transform: translateY(-2px); 
     }
 `
 

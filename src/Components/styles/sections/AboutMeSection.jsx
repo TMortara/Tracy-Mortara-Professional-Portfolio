@@ -61,6 +61,10 @@ export const AboutTextContainer = styled.div`
         font-size: 1.4rem;
         text-align: justify;
         margin-bottom: 1.5rem;
+
+        span {
+            font-size: 2.2rem;
+        }
     }
     span {
         font-family: 'Kristi', cursive;
@@ -69,6 +73,7 @@ export const AboutTextContainer = styled.div`
     @media (max-width: ${({theme}) => theme.mobile}) {
         p {
             font-size: 1.2rem;
+            text-align: center;
         }
     }
 `
@@ -79,7 +84,15 @@ export const Title = styled.span`
 `
 
 export const AboutHeading = styled.h1`
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 
+    @media (max-width: ${({theme}) => theme.mobile}) {
+        font-size: 1.5rem;
+        text-align: center;
+
+        span {
+            font-size: 2.2rem;
+        }
+    }
 `

@@ -51,14 +51,16 @@ export const ProjectImageContainer = styled.div`
     @media (max-width: ${({theme}) => theme.mobile}) {
        margin: 0.5rem 0.5rem;
        justify-content: center;
+       padding-right: 0;
+       width: 70%;
 
        img {
         /* transform: scale(0); */
-        width: 80%;
-        border-raidus: 8px;
+        width: 140%;
+        border-radius: 8px;
        }
        img:hover {
-        transform: scale(1.5);
+        transform: scale(1.1);
         transition: ${({theme}) => theme.transition};
         /* transform: rotateY(0deg);
         transition: ${({theme}) => theme.transition}; */
@@ -67,7 +69,6 @@ export const ProjectImageContainer = styled.div`
 `
 export const ProjectText = styled.div`
     flex: 1;
-    
     
     h1 {
         font-size: 3rem;
@@ -83,10 +84,16 @@ export const ProjectText = styled.div`
         text-align: justify;
         text-justify: distribute;
         padding-right: 3.5rem;
+
+        @media (max-width: ${({theme}) => theme.mobile}) {
+            padding-right: 0;
+            font-size: 1.2rem;
+            text-align: center;
+        }
     }
     div {
         display: flex;
-        align-itmes: center;
+        align-items: center;
 
         a {
             display: flex;
@@ -118,13 +125,13 @@ export const Tags = styled.div`
        margin-bottom: 0.5rem;
        display: inline-block;
        padding: 7px;
+       margin-top: -1rem;
        margin-right: 1rem;
        font-size: 1rem;
        border: 1px solid #2C3639;
        border-radius: 10px;
        background-color: #2C3639;
-
-
+       color: ${({theme}) => theme.colors.cream};
 
     @media (max-width: ${({theme}) => theme.mobile}) {
         justify-content: center;
@@ -144,6 +151,7 @@ export const OtherProjectItems = styled.div`
 
     @media (max-width: ${({theme}) => theme.mobile}) {
         flex-direction: column;
+        /* padding: 1rem; */
     }
 `
 
@@ -166,8 +174,12 @@ export const SingleOtherProject = styled.div`
     }
 
     &:last-child {
-        margin-right: 0;
+        /* margin-right: 0; */
     }
+
+    @media (max-width: ${({theme}) => theme.mobile}) {
+            margin: 1rem;
+        }
 `
 export const SingleOtherProjectText = styled.div`
     font-size: 1rem;
@@ -177,7 +189,7 @@ export const SingleOtherProjectText = styled.div`
         font-size: 2.5rem;
         text-align: center;
         margin: 0.8rem 0;
-        padding-bottom: 1rem;
+        padding-bottom: 0.2rem;
     }
     p {
         font-size: 1.2rem;
@@ -189,7 +201,7 @@ export const SingleOtherProjectText = styled.div`
     div {
         display: flex;
         justify-content: center;
-        align-itmes: center;
+        align-items: center;
 
         a {
             display: flex;
@@ -207,7 +219,7 @@ export const SingleOtherProjectText = styled.div`
             }
         }
         @media (max-width: ${({theme}) => theme.mobile}) {
-            justify-content: center;
+            justify-content: center; 
         }
     }
 
@@ -229,5 +241,10 @@ export const OtherProjectTags = styled.div`
         font-size: 1rem;
         border: 1px solid #2C3639;
         border-radius: 10px;
+        color: ${({theme}) => theme.colors.cream};
     }
+
+    /* a {
+        color: ${({theme}) => theme.colors.mauve};
+    } */
 `

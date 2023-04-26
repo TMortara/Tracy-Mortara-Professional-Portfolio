@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const SectionHeading = styled.div`
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 
     h1 {
         display: inline-block;
         font-family: 'Kristi', cursive;
-        font-size: 3.5rem;
+        font-size: 4rem;
         margin: 0.5rem 0 1.5rem 0;
         position: relative;
 
@@ -23,7 +23,12 @@ export const SectionHeading = styled.div`
             bottom: -7px;
         }
     }
+
+    p {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
     @media (max-width: ${({theme}) => theme.mobile}) {
-        text-align: left;
+        text-align: center;
     }
 `
