@@ -27,12 +27,14 @@ export const HeroTitle = styled.h1`
     font-size: 8rem;
 
     @media (max-width: ${({theme}) => theme.mobile}) {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 `
 
 export const HeroText = styled.div`
-    font-size: 1rem;
+    font-size: 1.4rem;
+    margin: 0.4rem;
+    color: ${({theme}) => theme.colors.beige};
 
     @media (max-width: ${({theme}) => theme.mobile}) {
         font-size: 1rem;

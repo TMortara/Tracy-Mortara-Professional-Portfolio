@@ -103,10 +103,12 @@ export const ProjectText = styled.div`
 
             svg {
                 margin-right: 0.5rem;
+                color: ${({theme}) => theme.colors.mauve};
+
             }
 
             @media (max-width: ${({theme}) => theme.mobile}) {
-            font-size: 0.9rem;
+            font-size: 1rem;
             }
         }
         @media (max-width: ${({theme}) => theme.mobile}) {
@@ -212,6 +214,8 @@ export const SingleOtherProjectText = styled.div`
 
             svg {
                 margin-right: 0.5rem;
+                color: ${({theme}) => theme.colors.mauve};
+                
             }
 
             @media (max-width: ${({theme}) => theme.mobile}) {

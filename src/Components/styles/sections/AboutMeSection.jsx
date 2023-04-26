@@ -10,7 +10,7 @@ export const AboutMeSectionStyled = styled.section`
 
     @media (max-width: ${({theme}) => theme.mobile}) {
        flex-direction: column;
-       align-items: flex-start;
+       /* align-items: flex-start; */
     }
 `
 
@@ -21,11 +21,11 @@ export const HeadshotContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 2.5rem;
+    /* margin-right: 2.5rem; */
     position: relative;
 
     @media (max-width: ${({theme}) => theme.mobile}) {
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
     }
 `
 
@@ -69,6 +69,7 @@ export const AboutTextContainer = styled.div`
     span {
         font-family: 'Kristi', cursive;
         font-size: 3.5rem;
+        color: ${({theme}) => theme.colors.beige};
     }
     @media (max-width: ${({theme}) => theme.mobile}) {
         p {
@@ -93,6 +94,7 @@ export const AboutHeading = styled.h1`
 
         span {
             font-size: 2.2rem;
+            color: ${({theme}) => theme.colors.beige};
         }
     }
 `

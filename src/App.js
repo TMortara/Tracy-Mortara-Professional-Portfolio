@@ -52,7 +52,7 @@ const App = () => {
       green: "rgba(63, 78, 79)",
       salmon: "rgba(242, 152, 99)",
       mauve: "rgba(141,89,90)",
-      lightPink: "rgba(242,195,167)",
+      beige: "rgb(216, 188, 171)",
       cream: "rgb(220, 215, 201)"
     },
     mobile: "768px",
