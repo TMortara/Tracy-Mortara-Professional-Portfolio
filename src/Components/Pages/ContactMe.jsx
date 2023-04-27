@@ -16,7 +16,6 @@ export const Contact = () => {
             <ContactForm />
         {/* </div> */}
     </ContactStyledSection>
-
     </>
 }
 

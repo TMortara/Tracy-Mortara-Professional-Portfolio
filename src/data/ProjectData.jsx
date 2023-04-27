@@ -24,7 +24,7 @@ export const ProjectData = [
         image: weather,
         title: "Weather Forecast",
         tags: ["JavaScript", "CSS", "HTML"],
-        description: "Weather application that allows users to see the current and 5 day forecase for a selected city.",
+        description: "Weather application that allows users to see the current and 5 day forecast for a selected city.",
         deployedLink: "https://tmortara.github.io/Weather-App/",
         gitHubLink: "https://github.com/TMortara/Weather-App"
     },
