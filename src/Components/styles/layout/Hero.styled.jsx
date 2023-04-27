@@ -25,6 +25,7 @@ export const HeroTitle = styled.h1`
     color: ${({theme}) => theme.colors.darkGold};
     font-family: 'Kristi', cursive;
     font-size: 8rem;
+    font-weight: 500;
 
     @media (max-width: ${({theme}) => theme.mobile}) {
         font-size: 5rem;

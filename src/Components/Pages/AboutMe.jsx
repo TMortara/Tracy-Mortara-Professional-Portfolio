@@ -1,5 +1,6 @@
 import { AboutHeading, AboutMeSectionStyled, AboutTextContainer, Headshot, HeadshotBorder, HeadshotBorderTwo, HeadshotContainer, Title } from "../styles/sections/AboutMeSection"
-import headshot from "../../assets/images/headshot.jpg"
+import headshot from "../../assets/images/headshot.jpg";
+
 
 export const AboutMe = () => {
     return <>

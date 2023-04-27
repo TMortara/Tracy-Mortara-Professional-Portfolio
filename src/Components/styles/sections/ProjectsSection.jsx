@@ -71,9 +71,10 @@ export const ProjectText = styled.div`
     flex: 1;
     
     h1 {
-        font-size: 3rem;
+        font-size: 3.1rem;
         margin-bottom: 2rem;
         font-family: 'Kristi', cursive;
+        font-weight: 500;
 
         @media (max-width: ${({theme}) => theme.mobile}) {
             text-align: center;
@@ -103,8 +104,7 @@ export const ProjectText = styled.div`
 
             svg {
                 margin-right: 0.5rem;
-                color: ${({theme}) => theme.colors.mauve};
-
+                color: ${({theme}) => theme.colors.cream};
             }
 
             @media (max-width: ${({theme}) => theme.mobile}) {
@@ -214,7 +214,7 @@ export const SingleOtherProjectText = styled.div`
 
             svg {
                 margin-right: 0.5rem;
-                color: ${({theme}) => theme.colors.mauve};
+                color: ${({theme}) => theme.colors.cream};
                 
             }
 

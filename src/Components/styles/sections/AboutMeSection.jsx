@@ -21,11 +21,12 @@ export const HeadshotContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-right: 2.5rem; */
+    margin-right: 2.5rem;
     position: relative;
 
     @media (max-width: ${({theme}) => theme.mobile}) {
         margin-bottom: 3rem;
+        margin-right: 0;
     }
 `
 
@@ -69,6 +70,7 @@ export const AboutTextContainer = styled.div`
     span {
         font-family: 'Kristi', cursive;
         font-size: 3.5rem;
+        font-weight: 200;
         color: ${({theme}) => theme.colors.beige};
     }
     @media (max-width: ${({theme}) => theme.mobile}) {
@@ -86,6 +88,7 @@ export const Title = styled.span`
 
 export const AboutHeading = styled.h1`
     font-size: 1.5rem;
+    font-weight: 500;
     margin-bottom: 20px;
 
     @media (max-width: ${({theme}) => theme.mobile}) {

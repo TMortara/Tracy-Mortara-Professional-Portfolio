@@ -80,7 +80,7 @@ export const NavList = styled.ul`
     @media (max-width: ${({theme}) => theme.mobile}) {
         width: 14rem;
         height: 100vh;
-        background: ${({theme, isOpen}) => isOpen ? theme.colors.cream : theme.colors.mauve};
+        background: ${({theme, isOpen}) => isOpen ? theme.colors.darKGreen : theme.colors.mauve};
         color: ${({theme}) => theme.colors.lightPink};
         position: fixed;
         top: 0;

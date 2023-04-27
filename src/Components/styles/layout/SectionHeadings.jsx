@@ -7,7 +7,8 @@ export const SectionHeading = styled.div`
     h1 {
         display: inline-block;
         font-family: 'Kristi', cursive;
-        font-size: 4rem;
+        font-size: 4.2rem;
+        font-weight: 500;
         margin: 0.5rem 0 1.5rem 0;
         position: relative;
 
