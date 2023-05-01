@@ -44,7 +44,7 @@ export const HeadshotBorder = styled.div`
     border-radius: 50%;
     position: absolute;
     z-index: 2;
-    background: ${({theme}) => theme.colors.darkGold};
+    background: ${({theme}) => theme.colors.mauve};
 `
 export const HeadshotBorderTwo = styled.div`
     height: 12.5rem;
@@ -52,7 +52,7 @@ export const HeadshotBorderTwo = styled.div`
     border-radius: 50%;
     position: absolute;
     z-index: 3;
-    background: ${({theme}) => theme.colors.white};
+    background: ${({theme}) => theme.colors.cream};
 `
 export const AboutTextContainer = styled.div`
     flex-grow: 1;
