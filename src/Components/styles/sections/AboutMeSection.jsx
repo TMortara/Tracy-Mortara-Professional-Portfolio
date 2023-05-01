@@ -34,6 +34,7 @@ export const Headshot = styled.img`
     height: 12rem;
     width: 12rem;
     border-radius: 50%;
+    object-fit: cover;
     position: absolute;
     z-index: 4;
 `
@@ -43,7 +44,7 @@ export const HeadshotBorder = styled.div`
     border-radius: 50%;
     position: absolute;
     z-index: 2;
-    background: ${({theme}) => theme.colors.gold};
+    background: ${({theme}) => theme.colors.darkGold};
 `
 export const HeadshotBorderTwo = styled.div`
     height: 12.5rem;
