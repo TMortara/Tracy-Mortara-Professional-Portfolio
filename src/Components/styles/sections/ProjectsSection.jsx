@@ -40,14 +40,13 @@ export const ProjectImageContainer = styled.div`
     img {
         width: 100%;
         border-radius: 10px;
-        /* transform: rotateY(30deg); */
         transition: ${({theme}) => theme.transition};
     }
+
     img:hover {
         transform: scale(1.2);
-        /* transform: rotateY(0deg);
-        transition: ${({theme}) => theme.transition}; */
     }
+
     @media (max-width: ${({theme}) => theme.mobile}) {
        margin: 0.5rem 0.5rem;
        justify-content: center;
@@ -55,15 +54,13 @@ export const ProjectImageContainer = styled.div`
        width: 70%;
 
        img {
-        /* transform: scale(0); */
         width: 140%;
         border-radius: 8px;
        }
+
        img:hover {
         transform: scale(1.1);
         transition: ${({theme}) => theme.transition};
-        /* transform: rotateY(0deg);
-        transition: ${({theme}) => theme.transition}; */
     }
     }
 `
@@ -153,7 +150,6 @@ export const OtherProjectItems = styled.div`
 
     @media (max-width: ${({theme}) => theme.mobile}) {
         flex-direction: column;
-        /* padding: 1rem; */
     }
 `
 
@@ -161,8 +157,6 @@ export const SingleOtherProject = styled.div`
     min-height: 20rem;
     border-radius: 10px;
     background: #2C3639;
-        /* give background opacity */
-
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -176,7 +170,6 @@ export const SingleOtherProject = styled.div`
     }
 
     &:last-child {
-        /* margin-right: 0; */
     }
 
     @media (max-width: ${({theme}) => theme.mobile}) {
@@ -209,7 +202,6 @@ export const SingleOtherProjectText = styled.div`
         a {
             display: flex;
             align-items: center;
-            /* margin: 2rem 2rem 2rem 0; */
             font-size: 1rem;
             padding: 0.5rem;
 
@@ -223,6 +215,7 @@ export const SingleOtherProjectText = styled.div`
             font-size: 0.9rem;
             }
         }
+
         @media (max-width: ${({theme}) => theme.mobile}) {
             justify-content: center; 
         }
@@ -248,8 +241,4 @@ export const OtherProjectTags = styled.div`
         border-radius: 10px;
         color: ${({theme}) => theme.colors.cream};
     }
-
-    /* a {
-        color: ${({theme}) => theme.colors.mauve};
-    } */
 `

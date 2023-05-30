@@ -7,10 +7,6 @@ export const NavItems = [
         href: "#mywork",
         text: "My Work"
     },
-    // {
-    //     href: "#resume",
-    //     text: "Resume"
-    // },
     {
         href: "#contact",
         text: "Let's Connect"
