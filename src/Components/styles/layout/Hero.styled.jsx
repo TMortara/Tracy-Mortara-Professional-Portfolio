@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const StyledHeroSection = styled.section`
 width: 100%;
 height: 90vh;
-/* background: url("./images/paper.jpg") center no-repeat; */
-/* opacity: 0.8; */
 background-size: 100%;
 position: relative;
 display: flex;
@@ -16,7 +14,6 @@ text-align: center;
 @media (max-width: ${({theme}) => theme.mobile}) {
        width: 100%;    
     }
-
 `
 
 export const HeroTitle = styled.h1`
@@ -49,5 +46,4 @@ export const HeroIcons = styled.div`
     a {
         padding: 0.5rem;
     }
-    
 `

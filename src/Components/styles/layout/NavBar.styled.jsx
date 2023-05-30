@@ -4,7 +4,6 @@ export const Nav = styled.nav`
     height: 80px;
     width: 100%;
     padding: 0 20px;
-    /* background-color: rgba(13, 13, 13, 0.5); */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -14,7 +13,6 @@ export const Nav = styled.nav`
 `
 export const Hamburger = styled.div`
     cursor: pointer;
-    /* background: ${({theme}) => theme.colors.salmon}; */
     transition: ${({theme}) => theme.transition};
     padding: 0.7rem;
     border-radius: 5px;
@@ -119,7 +117,6 @@ export const NavLink = styled.a`
       &:hover {
         &::after {
             width: 100%;
-
         }
       } 
 `
@@ -139,23 +136,3 @@ export const Icons = styled.div`
         }
     }
 `
-
-// export const Logo = styled.h1`
-// padding: 1rem 0;
-// text-decoration: none;
-// font-weight: 800;
-// font-size: 3rem;
-// font-family: 'Kristi', cursive;
-// color: white;
-// `
-
-// export const NavWrapper = styled.div`
-// padding: 0 2rem;
-// display: flex;
-// width: 95%;
-// justify-content: space-between;
-// align-items: center;
-// flex-wrap: wrap;
-// position: fixed;
-// top:0;
-// `
