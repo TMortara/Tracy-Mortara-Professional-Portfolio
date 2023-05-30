@@ -15,7 +15,6 @@ import { NavItems } from "../../data/NavItems";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -39,15 +38,18 @@ export const NavBar = () => {
                 <NavLink href={navItem.href}>{navItem.text}</NavLink>
               </NavItem>
             ))}
-                            <Icons>
-                    <NavLink href="https://github.com/TMortara" target="_blank"><FaGithub /></NavLink>
-                    <NavLink href="https://www.linkedin.com/in/tracymortara/" target="_blank"><FaLinkedin /></NavLink>
-                </Icons>
-          {/* {NavItems && NavItems.map((NavItem, index)) => (
-            <NavItem key={index}>{console.log(index)};<a href=""></a></NavItem>
-        ))} */}
+          <Icons>
+            <NavLink href="https://github.com/TMortara" target="_blank">
+              <FaGithub />
+            </NavLink>
+            <NavLink
+              href="https://www.linkedin.com/in/tracymortara/"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </NavLink>
+          </Icons>
         </NavList>
-        {/* <div>Let's Connect</div> */}
       </Nav>
     </>
   );
