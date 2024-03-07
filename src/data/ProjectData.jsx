@@ -1,7 +1,7 @@
 import wanderlust from "../assets/images/wanderlust.png";
 import weather from "../assets/images/weatherapp.png";
 import codeQuiz from "../assets/images/jscodingquiz.png";
-import robotic from "../assets/images/roboticrenaissance.png";
+// import robotic from "../assets/images/roboticrenaissance.png";
 
 export const ProjectData = [
     {
@@ -12,14 +12,14 @@ export const ProjectData = [
         deployedLink: "https://quiet-everglades-33653.herokuapp.com/",
         gitHubLink: "https://github.com/TMortara/Travel-Blog"
     },
-    {
-        image: robotic,
-        title: "Robotic RenAIssance",
-        tags: ["React", "GraphQL", "MongoDB"],
-        description: "Gallery that displays artwork created by AI during the Robotic Renaissance.",
-        deployedLink: "https://robotic-renaissance.herokuapp.com/",
-        gitHubLink: "https://github.com/fabien1313/Robotic_RenAIssance"
-    },
+    // {
+    //     image: robotic,
+    //     title: "Robotic RenAIssance",
+    //     tags: ["React", "GraphQL", "MongoDB"],
+    //     description: "Gallery that displays artwork created by AI during the Robotic Renaissance.",
+    //     deployedLink: "https://robotic-renaissance.herokuapp.com/",
+    //     gitHubLink: "https://github.com/fabien1313/Robotic_RenAIssance"
+    // },
     {
         image: weather,
         title: "Weather Forecast",

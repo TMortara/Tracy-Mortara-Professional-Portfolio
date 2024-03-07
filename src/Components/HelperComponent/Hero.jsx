@@ -13,7 +13,7 @@ export const Hero = () => {
     <StyledHeroSection>
       <HeroTitle>Tracy Mortara</HeroTitle>
       <HeroText>
-        <p>Full Stack Developer</p>
+        <p>Front-End Developer</p>
         <p>Ready to take on an exciting new challenge!</p>
       </HeroText>
       <HeroIcons>

@@ -24,17 +24,13 @@ export const AboutMe = () => {
             Hi, my name is <span>Tracy Mortara</span> !
           </AboutHeading>
           <p>
-            I am a <Title>Junior Full Stack Developer</Title> looking for a new
-            challenge where I can continue to grow my skills as a developer.
+            I am a <Title>Junior Front-End Developer</Title> looking for a new
+            challenge where I can grow as a Developer.
           </p>
           <p>
-            My experience managing the implementation for two K-12 products has
-            provided me experience with cross-functional collaboration and
-            insight into the development and maintenance of products. This
-            experience combined with my knowledge as a developer makes me a
-            unique addition to your team. In addition to my experience, I am
-            incredibly hardworking and willing to face any challenge that comes
-            my way.
+            Current part-time Front-End Developer with experience in management
+            and cross-functional collaboration to maintain and scale two Ed
+            Tech products.
           </p>
         </AboutTextContainer>
       </AboutMeSectionStyled>
