@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Tracy-Mortara-Professional-Portfolio/static/js/main.bb1630b9.js",
+    "main.js": "/Tracy-Mortara-Professional-Portfolio/static/js/main.dc2d4f08.js",
     "static/media/headshot.jpg": "/Tracy-Mortara-Professional-Portfolio/static/media/headshot.95862114e69870fff391.jpg",
     "static/media/weatherapp.png": "/Tracy-Mortara-Professional-Portfolio/static/media/weatherapp.df88ab5d2716b01bb670.png",
     "static/media/jscodingquiz.png": "/Tracy-Mortara-Professional-Portfolio/static/media/jscodingquiz.fa6d3e79d0bdac782651.png",
-    "static/media/resume.pdf": "/Tracy-Mortara-Professional-Portfolio/static/media/resume.d8a7a9d2ce7d5e013639.pdf",
+    "static/media/resume2025.pdf": "/Tracy-Mortara-Professional-Portfolio/static/media/resume2025.a317eb12282434041302.pdf",
     "index.html": "/Tracy-Mortara-Professional-Portfolio/index.html",
-    "main.bb1630b9.js.map": "/Tracy-Mortara-Professional-Portfolio/static/js/main.bb1630b9.js.map"
+    "main.dc2d4f08.js.map": "/Tracy-Mortara-Professional-Portfolio/static/js/main.dc2d4f08.js.map"
   },
   "entrypoints": [
-    "static/js/main.bb1630b9.js"
+    "static/js/main.dc2d4f08.js"
   ]
 }
