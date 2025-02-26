@@ -6,7 +6,7 @@ import {
   StyledMessage,
 } from "../styles/layout/Form.styled";
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 export const ContactForm = () => {
   // const nameRef = useRef("");
@@ -22,23 +22,28 @@ export const ContactForm = () => {
     //     email: emailRef.current.value,
     //     message: messageRef.current.value
     // }
-    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, {
-      publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
-    })
-    .then(
-      () => {
-        alert("Thank you for messaging me!");
-      }, (error) => {
-        alert('Your email was not sent. Please try again.', error.text);
-        console.log('FAILED...', error.text);
-
-      },
-    );
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+        }
+      )
+      .then(
+        () => {
+          alert("Thank you for messaging me!");
+        },
+        (error) => {
+          alert("Your email was not sent. Please try again.", error.text);
+          console.log("FAILED...", error.text);
+        }
+      );
   };
 
   return (
     <FormContainer className="container">
-      <h1>Contact Me</h1>
       <form ref={form} onSubmit={sendEmail}>
         <StyledLabel>Name</StyledLabel>
         <StyledInput

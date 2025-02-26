@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutMeSectionStyled = styled.section`
   min-height: 90vh;
-  width: 100%;
+  width: 94%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,7 +85,11 @@ export const AboutTextContainer = styled.div`
 
 export const Title = styled.span`
   font-family: "Kristi", cursive;
-  font-size: 2rem;
+  font-size: 2.2rem;
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    display: block;
+  }
 `;
 
 export const AboutHeading = styled.h1`
@@ -94,11 +98,11 @@ export const AboutHeading = styled.h1`
   margin-bottom: 20px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
 
     span {
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       color: ${({ theme }) => theme.colors.beige};
     }
   }

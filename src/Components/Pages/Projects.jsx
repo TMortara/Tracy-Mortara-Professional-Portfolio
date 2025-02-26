@@ -18,9 +18,9 @@ import { OtherProjectData } from "../../data/OtherProjectData";
 export const Projects = () => {
   return (
     <>
-      <ProjectStyledSection id="mywork">
+      <ProjectStyledSection id="myprojects">
         <SectionHeading>
-          <h1>My Work</h1>
+          <h1>My Projects</h1>
         </SectionHeading>
         <div>
           {ProjectData &&
@@ -63,10 +63,7 @@ export const Projects = () => {
 
         <OtherProjectsSection>
           <SectionHeading>
-            <h1>Other Projects</h1>
-            <p>
-              Projects that were not deployed, but highlight more of my skills.
-            </p>
+            <h2>Other Projects</h2>
           </SectionHeading>
           <OtherProjectItems>
             {OtherProjectData &&

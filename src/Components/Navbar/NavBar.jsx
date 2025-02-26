@@ -4,6 +4,7 @@ import {
   HamburgerLineOne,
   HamburgerLineTwo,
   HamburgerLineThree,
+  HamburgerLineFour,
   NavList,
   NavItem,
   NavLink,
@@ -25,6 +26,7 @@ export const NavBar = () => {
           <HamburgerLineOne isOpen={isOpen} />
           <HamburgerLineTwo isOpen={isOpen} />
           <HamburgerLineThree isOpen={isOpen} />
+          <HamburgerLineFour isOpen={isOpen} />
         </Hamburger>
         <NavList isOpen={isOpen}>
           {NavItems &&

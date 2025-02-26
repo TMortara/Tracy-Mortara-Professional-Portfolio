@@ -21,16 +21,13 @@ export const AboutMe = () => {
         </HeadshotContainer>
         <AboutTextContainer>
           <AboutHeading>
-            Hi, my name is <span>Tracy Mortara</span> !
+            Hi, I am <span>Tracy Mortara</span> !
           </AboutHeading>
           <p>
-            I am a <Title>Junior Front-End Developer</Title> looking for a new
-            challenge where I can grow as a Developer.
-          </p>
-          <p>
-            Current part-time Front-End Developer with experience in management
-            and cross-functional collaboration to maintain and scale two Ed
-            Tech products.
+            <Title>Junior Front End Developer</Title> with nearly two years of
+            experience in React, JavaScript, and modern UI frameworks.
+            Passionate about delivering intuitive user experiences, optimizing
+            performance, and solving complex front-end challenges.
           </p>
         </AboutTextContainer>
       </AboutMeSectionStyled>

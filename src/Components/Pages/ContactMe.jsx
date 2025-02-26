@@ -7,8 +7,8 @@ export const Contact = () => {
     <>
       <ContactStyledSection id="contact">
         <SectionHeading>
-          <h1>Let's Connect</h1>
-          <p>I cannot wait to hear from you!</p>
+          <h1>Contact Me</h1>
+          <p>Let's discuss how I can help you meet your goals!</p>
         </SectionHeading>
 
         <ContactForm />
