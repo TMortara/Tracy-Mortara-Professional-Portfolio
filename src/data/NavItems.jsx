@@ -3,10 +3,10 @@ export const NavItems = [
     href: "#aboutme",
     text: "About Me",
   },
-  {
-    href: "#currentwork",
-    text: "Current Work",
-  },
+  // {
+  //   href: "#experience",
+  //   text: "Experience",
+  // },
   {
     href: "#myprojects",
     text: "My Projects",

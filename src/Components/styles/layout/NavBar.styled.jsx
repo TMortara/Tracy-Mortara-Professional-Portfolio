@@ -66,19 +66,19 @@ export const HamburgerLineThree = styled.div`
   transform: ${({ isOpen }) => (isOpen ? "rotate(180deg)" : "none")};
 `;
 
-export const HamburgerLineFour = styled.div`
-  width: 15px;
-  height: 3px;
-  margin: 5px 0;
-  margin-left: 15px;
-  background: linear-gradient(
-    135deg,
-    rgba(191, 126, 4, 1) 0%,
-    rgba(141, 89, 80, 1) 100%
-  );
-  transition: ${({ theme }) => theme.transition};
-  transform: ${({ isOpen }) => (isOpen ? "rotate(180deg)" : "none")};
-`;
+// export const HamburgerLineFour = styled.div`
+//   width: 15px;
+//   height: 3px;
+//   margin: 5px 0;
+//   margin-left: 15px;
+//   background: linear-gradient(
+//     135deg,
+//     rgba(191, 126, 4, 1) 0%,
+//     rgba(141, 89, 80, 1) 100%
+//   );
+//   transition: ${({ theme }) => theme.transition};
+//   transform: ${({ isOpen }) => (isOpen ? "rotate(180deg)" : "none")};
+// `;
 export const NavList = styled.ul`
   display: flex;
   flex-wrap: wrap;
