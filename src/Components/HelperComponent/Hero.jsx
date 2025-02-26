@@ -6,7 +6,7 @@ import {
 } from "../styles/layout/Hero.styled";
 import { HiOutlineDocumentArrowDown } from "react-icons/hi2";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/resume2025.pdf";
 
 export const Hero = () => {
   return (
